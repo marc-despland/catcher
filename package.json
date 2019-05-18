@@ -1,0 +1,29 @@
+{
+  "name": "catcher",
+  "version": "1.0.0",
+  "description": "catch every request and display them on screen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marc-despland/catcher.git"
+  },
+  "keywords": [
+    "Http",
+    "Request",
+    "Catcher"
+  ],
+  "author": "Marc Despland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marc-despland/catcher/issues"
+  },
+  "homepage": "https://github.com/marc-despland/catcher#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.0"
+  }
+}
